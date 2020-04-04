@@ -4,21 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="icon" type="image/png" href="assets/images/mesFaviconTransparent.png">
 
     <title>Mark Syphus Portfolio</title>
 
 </head>
-<body>
+<body class="bg-img">
 
-    <div class="jumbotron bg-secondary text-center">
-        <h1>Mark Syphus</h1>
-        <h2>Full Stack Developer</h2>
+    <div class="row bg-custom">
+        <div class="col-sm-2 float-left m-2">
+            <img class="rounded" src="assets/images/profile.png" alt="Profile Picture" width="90%" height="95%">
+        </div>
+        <div class="col-sm-8 text-center p-5">
+            <h1>Mark Syphus</h1>
+            <h2>Full Stack Developer</h2>
+        </div>
     </div>
 
     <div class="row summary">
-        <div class="col-sm-2 bg-dark">
-            <img src="assets/images/profile.png" alt="Profile Picture" width="150px" height="210px">
+        <div class="col-sm-2 bg-custom pl-4 pr-0">
             <p><b>Phone:</b> <a href="tel:+13852667979">385.266.7979</a></p>
             <p><b>Email:</b> <a href="mailto:mark.syphus@gmail.com">mark.syphus@gmail.com</a> </p>
             <p><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/mark-syphus-53906472/" target="_blank" title="https://www.linkedin.com/in/mark-syphus-53906472/">Mark Syphus</a></p>
@@ -26,7 +31,7 @@
             <p><b>Resume:</b> <a href="assets/images/Mark_Syphus_Developer_Resume.pdf" target="_blank">Download here</a></p>
         </div>
 
-        <div class="col-sm-8 bg-secondary">
+        <div class="col-sm-8 bg-custom-light">
             <h4>Summary</h4>
             <p>Full Stack Developer with a background in science, statistics, and operations management.  Earned a certificate in Full Stack Development \
                 from the University of Utah, a master’s degree in science from Texas A&M University-Corpus Christi, and a Lean Six Sigma Master Black Belt. \
@@ -39,7 +44,7 @@
             </p>
             <p>For a more detailed bio, <a href="#">click here.</a></p>
             
-            <div class="col-sm-8">
+            <div class="container">
                 <h4>Portfolio</h4>
                 <div class="row my-3">
                     <div class="card-group mx-auto">
@@ -47,7 +52,7 @@
                             <img class="card-img-top" src="assets/images/catTrap.PNG" alt="Cat-themed word game"
                                 style="width:100%; height:40%">
                             <div class="card-body">
-                                <h4 class="card-title">Cat Trap</h4><br>
+                                <h5 class="card-title">Cat Trap</h5>
                                 <p class="card-text pt-1">A cat-themed word game.</p>
                                 <a href="https://msyphus.github.io/hangman/" target="_blank" class="btn btn-info stretched-link">Check It
                                     Out!</a>
@@ -57,7 +62,7 @@
                             <img class="card-img-top mx-auto" src="assets/images/rpgGame.PNG" alt="RPG fight game"
                                 style="width:100%; height:40%">
                             <div class="card-body">
-                                <h4 class="card-title">Martial Arts Mashup</h4>
+                                <h5 class="card-title">Martial Arts Mashup</h5>
                                 <p class="card-text">An RPG Fight Game.</p>
                                 <a href="https://msyphus.github.io/rpg-game/" class="btn btn-info stretched-link">Check It Out!</a>
                             </div>
@@ -66,7 +71,7 @@
                             <img class="card-img-top" src="assets/images/responsivePortfolio.PNG" alt="Connections"
                                 style="width:100%; height:40%">
                             <div class="card-body">
-                                <h4 class="card-title">Manual Responsive Design</h4>
+                                <h5 class="card-title">Manual Responsive Design</h5>
                                 <p class="card-text">A responsive portfolio without using a framework.</p>
                                 <a href="https://msyphus.github.io/responsive-portfolio/" class="btn btn-info stretched-link">Check It
                                     Out!</a>
@@ -80,7 +85,7 @@
                             <img class="card-img-top mx-auto" src="assets/images/triviaGame.PNG" alt="Business Trivia Quiz"
                                 class="rounded-circle" style="width:100%; height:40%">
                             <div class="card-body">
-                                <h4 class="card-title">Business Management Quiz</h4>
+                                <h5 class="card-title">Business Management Quiz</h5>
                                 <p class="card-text">Test and develop your business management knowledge.</p>
                                 <a href="https://msyphus.github.io/trivia-game/" class="btn btn-info stretched-link">Check It Out!</a>
                             </div>
@@ -89,7 +94,7 @@
                             <img class="card-img-top" src="assets/images/gifCollector.PNG" alt="GIF Collector"
                                 style="width:100%; height:40%">
                             <div class="card-body">
-                                <h4 class="card-title">GIF Collector</h4>
+                                <h5 class="card-title">GIF Collector</h5>
                                 <p class="card-text">Simple GIF searching app...for kids!</p>
                                 <a href="https://msyphus.github.io/gif-collector/" class="btn btn-info stretched-link">Check It Out!</a>
                             </div>
@@ -99,18 +104,36 @@
             </div>
         </div>
 
-        <div class="col-sm-2 bg-dark">
-            <h4>Technical Skills:</h4>
-            <ul>
-                <li><b>Languages and Libraries:</b> HTML, CSS, JavaScript, jQuery, Bootstrap, PHP, R, VBA</li>
-                <li><b>Frameworks and Platforms:</b> Bootstrap, React.js, Express.js, Node.js, Laravel, Heroku</li>
-                <li><b>Interfaces and Databases:</b> APIs, Firebase, MySQL, MondoDB</li>
-                <li><b>Version Control:</b> GitHub, Git Bash</li>
-                <li><b>Graphics:</b> GIMP, Blender</li>
+        <div class="col-sm-2 bg-custom">
+            <h4 class="text-center underline">Technical Skills:</h4>
+            <ul class="px-0" style="list-style-type: none;"><b>Languages and Libraries:</b>
+                <li>HTML</li>
+                <li>CSS</li>     
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>R</li>
             </ul>
+            <ul class="px-0" style="list-style-type: none;"><b>Frameworks and Platforms:</b>
+                <li>Bootstrap</li>
+                <li>React.js</li>
+                <li>Express.js</li>
+                <li>Node.js</li>
+                <li>Laravel</li>
+                <li>Heroku</li>
+            </ul>
+            <ul class="px-0" style="list-style-type: none;"><b>Interfaces and Databases:</b>
+                <li>APIs</li>
+                <li>Firebase</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+            </ul>    
+            <ul class="px-0" style="list-style-type: none;"><b>Version Control:</b>
+                <li>GitHub</li>
+                <li>Git Bash</li>
+            </ul>    
 
-            <h4>Professional Skills:</h4>
-            <ul>
+            <h4 class="text-center underline">Professional Skills:</h4>
+            <ul class="px-0" style="list-style-type: none;">
                 <li>Statistical Analysis</li>
                 <li>Agile</li>
                 <li>Lean Six Sigma</li>
@@ -118,7 +141,7 @@
                 <li>Department Management</li>
                 <li>Product Development</li>
                 <li>Research and Development</li>
-                <li>Quality Assurance and Control</li>
+                <li>Quality Assurance</li>
                 <li>Auditing</li>
                 <li>Biology</li>
                 <li>Chemistry</li>
@@ -131,7 +154,7 @@
 
     
 
-    <div class="footer bg-secondary text-center">
+    <div class="footer bg-custom text-center">
         <p>Updated April 2020</p>
     </div>
 

@@ -1,0 +1,20 @@
+.bg-img {
+    background-image: url(../images/email-pattern.png);
+    
+}
+
+.bg-custom {
+    background-color: rgba(48, 78, 115, 0.3);
+}
+
+.bg-custom-light {
+    background-color: rgba(44,94,105,0.3);
+}
+
+.bg-custom-dark {
+    background-color: rgba(43,52,91,0.7);
+}
+
+.underline {
+    text-decoration: underline;
+}
