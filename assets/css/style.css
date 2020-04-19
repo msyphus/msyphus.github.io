@@ -1,5 +1,7 @@
-.nav-pills .active {
+.nav-pills .active, .btn-info {
     background-color: rgba(173,201,192,.6)!important;
+    color: black!important;
+    border: 1px groove rgba(48, 78, 115, 0.3);
 }
 
 h1 {
@@ -20,10 +22,6 @@ h2 {
 
 .bg-custom-light {
     background-color: rgba(44,94,105,0.3);
-}
-
-.bg-custom-dark {
-    background-color: rgba(43,52,91,0.7);
 }
 
 .underline {
