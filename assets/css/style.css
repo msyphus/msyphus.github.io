@@ -33,3 +33,137 @@ h2 {
         height: 92%;
     }
 }
+
+@media only screen and (max-width: 1418px) {
+    .card {
+        padding-bottom: 3%; 
+    }
+
+    .card-body {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1405px) {
+    .card {
+        padding-bottom: 5%; 
+    }
+
+    .card5Head, .card6Head {
+        margin-bottom: 5%!important;
+    }
+
+    .card5Text, .card6Text {
+        margin-top: 12%!important;
+    }
+
+    .btn {
+        position: relative;
+    }
+
+    .btnReadme, {
+        position: absolute;
+        bottom: 2%;
+    }
+}
+
+@media only screen and (max-width: 1381px) {
+    .card2Head, .card3Head {
+        margin-bottom: 5%!important;
+    }
+
+    .card2Text, .card3Text {
+        margin-top: 12%!important;
+    }
+}
+
+@media only screen and (max-width: 1278px) {
+    .card {
+        padding-bottom: 8%; 
+    }
+
+    .card5Text, .card6Text {
+        margin-top: 13%!important;
+        margin-bottom: 18%!important;
+    }
+}
+
+@media only screen and (max-width: 1197px) {
+    .card1Text {
+        margin-bottom: 18%!important;
+    }
+
+    .card3Text {
+        margin-bottom: 18%!important;
+    }
+}
+
+@media only screen and (max-width: 1159px) {
+    .card3Text {
+        margin-bottom: 20%!important;
+    }
+    
+    .card5Text {
+        margin-bottom: 22%!important;
+    }
+
+    .card6Text {
+        margin-bottom: 11%!important;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .card {
+        padding-bottom: 6%; 
+    }
+
+    h5 {
+        font-size: 1.15rem;
+    }
+
+    .btn {
+        padding: .2rem .5rem;
+    }
+
+    .card-text {
+        margin-bottom: 1%;
+        font-size: 0.9rem;
+    } 
+    
+    .card1Text {
+        margin-bottom: 14%!important;
+    }
+
+    .card2Text {
+        margin-bottom: 5%!important;
+    }
+
+    .card3Text, .card5Text, .card6Text {
+        margin-bottom: 15%!important;
+    }
+
+    .card4Text {
+        margin-bottom: 2%!important;
+    }
+}
+
+@media only screen and (max-width: 1072px) {
+    .card6Text {
+        margin-bottom: 5%!important;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .card {
+        padding-bottom: 10%; 
+    }
+
+    h5 {
+        font-size: 1.1rem;
+    }
+
+    .card-text {
+        margin-bottom: 1%;
+        font-size: 0.85rem;
+    }    
+}
