@@ -27,3 +27,9 @@ h2 {
 .underline {
     text-decoration: underline;
 }
+
+@media only screen and (min-width: 1418px) {
+    .adjHeight {
+        height: 92%;
+    }
+}
