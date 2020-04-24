@@ -1,3 +1,7 @@
+/* .col-sm-2 {
+    min-width: 200px;
+} */
+
 .nav-pills .active, .btn-info {
     background-color: rgba(173,201,192,.6)!important;
     color: black!important;
@@ -35,3 +39,32 @@ h2 {
 .card-body {
     padding-bottom: 25%;
 }
+
+@media screen and (max-width: 576px) {
+    .card {
+        margin-bottom: 3%;
+        left: 20%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .shrink {
+      font-size: .9em;
+      overflow-wrap: break-word;
+  }
+
+  .underline {
+      font-size: 1.1em;
+      font-weight: bolder;
+  }
+    
+    .card {
+        margin-bottom: 3%;
+        left: 20%;
+    }
+
+    .card-body {
+        padding-bottom: 3%;
+    }
+}
+
