@@ -1,3 +1,11 @@
+.bg-img {
+    background-image: url(../images/email-pattern.png);
+}
+
+.bg-custom {
+    background-color: rgba(48, 78, 115, 0.3);
+}
+
 .nav-pills .active, .btn-info {
     background-color: rgba(173,201,192,.6)!important;
     color: black!important;
@@ -12,14 +20,6 @@ h2 {
     font-style: italic;
 }
 
-.bg-img {
-    background-image: url(../images/email-pattern.png);
-}
-
-.bg-custom {
-    background-color: rgba(48, 78, 115, 0.3);
-}
-
 .bg-custom-light {
     background-color: rgba(44,94,105,0.3);
 }
@@ -31,11 +31,6 @@ h2 {
 .card {
     width: 290px;
     height: 400px;
-    margin-bottom: 3%;
-}
-
-.card-body {
-    padding-bottom: 10%;
 }
 
 @media screen and (max-width: 576px) {
@@ -43,6 +38,10 @@ h2 {
         float: none!important;
         display: block!important;
         margin: 0 auto 3%!important;
+    }
+
+    .card-body {
+        padding-bottom: 10%;
     }
 }
 
@@ -63,16 +62,16 @@ h2 {
       overflow-wrap: break-word;
   }
 
+  .skills {
+    font-size: 1.7vw;
+    padding-right: 1%;
+}
+
   .underline {
       font-size: 2vw;
       font-weight: bolder;
   }
 
-  .skills {
-      font-size: 1.7vw;
-      padding-right: 1%;
-  }
-    
     .card {
         float: none!important;
         display: block!important;
@@ -96,6 +95,14 @@ h2 {
         height: 100%;
     }
 
+    .skills {
+        font-size: 16px!important;
+    }
+
+    .underline {
+        font-size: 26px;
+    }
+
     .card {
         display: inline-block!important;
         float: left!important;
@@ -105,14 +112,6 @@ h2 {
 
     .card-body {
         padding-bottom: 10%;
-    }
-
-    .shrink, .skills {
-        font-size: 16px!important;
-    }
-
-    .underline {
-        font-size: 26px;
     }
 }
 
