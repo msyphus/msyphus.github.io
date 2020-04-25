@@ -35,12 +35,14 @@ h2 {
 }
 
 .card-body {
-    padding-bottom: 25%;
+    padding-bottom: 10%;
 }
 
 @media screen and (max-width: 576px) {
     .card {
-        left: 20%;
+        float: none!important;
+        display: block!important;
+        margin: 0 auto 3%!important;
     }
 }
 
@@ -71,11 +73,42 @@ h2 {
   }
     
     .card {
-        left: 20%;
+        float: none!important;
+        display: block!important;
+        margin: 0 auto 3%!important;
+
     }
 
     .card-body {
-        padding-bottom: 3%;
+        padding-bottom: 10%;
+    }
+}
+
+@media screen and (min-width: 1066px) {
+    .profileImg {
+        height: 100%;
+    }
+
+    .card {
+        display: inline-block!important;
+        float: left!important;
+        margin-right: 1%!important;
+    }
+
+    .card-body {
+        padding-bottom: 10%;
+    }
+
+   /* .card4 {
+       padding-bottom: 1.5%;
+   } */
+
+    .shrink, .skills {
+        font-size: 16px;
+    }
+
+    .underline {
+        font-size: 28px;
     }
 }
 
