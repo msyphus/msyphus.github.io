@@ -34,6 +34,10 @@ h2 {
 }
 
 @media screen and (max-width: 576px) {
+    .navbar {
+        padding-bottom: 1%!important;
+    }
+    
     .card {
         float: none!important;
         display: block!important;
@@ -46,6 +50,11 @@ h2 {
 }
 
 @media screen and (min-width: 576px) {
+  .nav-link {
+    font-size: 2vw;  
+    padding: .4rem .8rem;
+  }
+
   .profileImg {
       padding-right: 0;
       padding-left: 1%;
@@ -85,6 +94,11 @@ h2 {
 }
 
 @media screen and (min-width: 803px) {
+    .nav-link {
+        font-size: 1rem;  
+        padding: .5rem 1rem;
+    }
+
     .shrink {
         font-size: 16px!important;
     }
