@@ -100,6 +100,7 @@ h2 {
         display: inline-block!important;
         float: left!important;
         margin-right: 1%!important;
+        margin-left: 5%!important;
     }
 
     .card-body {
@@ -111,7 +112,49 @@ h2 {
     }
 
     .underline {
-        font-size: 28px;
+        font-size: 26px;
     }
 }
 
+@media screen and (min-width: 1133px) {
+    .card {
+        margin-left: 6%!important;
+    }
+}
+
+@media screen and (min-width: 1190px) {
+    .card {
+        margin-left: 7%!important;
+    }
+}
+
+@media screen and (min-width: 1235px) {
+    .card {
+        margin-left: 8%!important;
+    }
+}
+
+@media screen and (min-width: 1276px) {
+    .card {
+        margin-left: 9%!important;
+    }
+}
+
+@media screen and (min-width: 1320px) {
+    .card {
+        margin-left: 10%!important;
+    }
+}
+
+@media screen and (min-width: 1355px) {
+    .card {
+        margin-left: 11%!important;
+    }
+}
+
+@media screen and (min-width: 1411px) {
+    .card {
+        margin-right: 1%!important;
+        margin-left: 0!important;
+    }
+}
