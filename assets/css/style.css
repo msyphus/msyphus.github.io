@@ -47,6 +47,18 @@ h2 {
     .card-body {
         padding-bottom: 10%;
     }
+
+    .profileImg {
+        height: 300px;
+    }
+    
+    .rounded {
+        width: 50%;
+    }
+    
+    .pgTitle {
+        padding: 0!important;
+    }
 }
 
 @media screen and (min-width: 576px) {
@@ -57,8 +69,13 @@ h2 {
 
   .profileImg {
       padding-right: 0;
-      padding-left: 1%;
-      height: 170px;
+      padding-left: 1%; 
+      height: 15vh;
+  }
+
+  .pgTitle {
+      padding: 0!important;
+      height: 15vh;
   }
 
   .contact {
@@ -93,6 +110,17 @@ h2 {
     }
 }
 
+@media screen and (min-width: 700px) {
+    .profileImg {
+        height: 20vh;
+    }
+  
+    .pgTitle {
+        padding-top: 2%!important;
+        height: 20vh;
+    }
+}
+
 @media screen and (min-width: 803px) {
     .nav-link {
         font-size: 1rem;  
@@ -101,6 +129,17 @@ h2 {
 
     .shrink {
         font-size: 16px!important;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .profileImg {
+        height: 25vh;
+    }
+  
+    .pgTitle {
+        padding-top: 3%!important;
+        height: 25vh;
     }
 }
 
