@@ -4,7 +4,7 @@
 The live page can be viewed [here.](https://msyphus.github.io)
 
 ### General
-This is my official professional portfolio, current as of the date displayed in the footer.  Only six projects are displayed.  If you'd like to see more, you may view my public GitHub repositories or contact me.
+This is my official portfolio for demonstrating my software development abilities, current as of the date displayed in the footer.  Only six projects are displayed.  If you'd like to see more, you may view my public GitHub repositories or contact me.
 
 Feel free to reach out if you would like any further information.
 
