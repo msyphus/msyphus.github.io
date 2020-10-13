@@ -6,7 +6,7 @@
     background-color: rgba(48, 78, 115, 0.3);
 }
 
-.nav-pills .active, .btn-info {
+.btn-info {
     background-color: rgba(173,201,192,.6)!important;
     color: black!important;
     border: 1px groove rgba(48, 78, 115, 0.3);
@@ -34,10 +34,6 @@ h2 {
 }
 
 @media screen and (max-width: 576px) {
-    .navbar {
-        padding-bottom: 1%!important;
-    }
-    
     .card {
         float: none!important;
         display: block!important;
@@ -62,10 +58,9 @@ h2 {
 }
 
 @media screen and (min-width: 576px) {
-  .nav-link {
-    font-size: 2vw;  
-    padding: .4rem .8rem;
-  }
+ h2 {
+     font-size: 3.5vh;
+ }
 
   .profileImg {
       padding-right: 0;
@@ -122,11 +117,6 @@ h2 {
 }
 
 @media screen and (min-width: 803px) {
-    .nav-link {
-        font-size: 1rem;  
-        padding: .5rem 1rem;
-    }
-
     .shrink {
         font-size: 16px!important;
     }
@@ -158,7 +148,6 @@ h2 {
 
     .card {
         display: inline-block!important;
-        float: left!important;
         margin-right: 1%!important;
         margin-left: 5%!important;
     }
