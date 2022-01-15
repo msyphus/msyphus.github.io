@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="icon" type="image/png" href="assets/images/mesFaviconTransparent.png">
 
@@ -57,8 +60,31 @@
                 </div>
                 <div class="container p-0">
                     <a href="https://ecr.aimsplatform.org/ecr-now-fhir-app" target="_blank" class="btn btn-block btn-info">Check It Out!</a>
-                    <a href="" target="_blank" class="btn btn-block btn-info mt-0">Read More</a>
+                    <button type="button" class="btn btn-block btn-info" data-toggle="modal" data-target="#ecrModal">
+                        Read More
+                    </button>
+                    <!-- <a href="" target="_blank" class="btn btn-block btn-info mt-0">Read More</a> -->
                 </div>
+                <div class="modal" id="ecrModal">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title">eCR Now FHIR App</h4>
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                          This app was developed for the Association of Public Health Laboratories to improve electronic reporting
+                          of public health diseases.  I fulfilled a contract to work on one of the teams to build this app.  My responsibilities 
+                          were to develop back-end APIs and a compiler, ensure product compliance with FHIR standards, maintain documentation,
+                          and serve as the project manager for one of the consulting groups.  Technology used on this project included Java, 
+                          CQL (Clinical Query Language), SUSHI, JSON, XML, Batch Script, Plant UML, and Markdown.
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Back To Home</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div> 
             </div>
             <div class="card mx-1 bg-custom">
                 <img class="card-img-top rounded" src="assets/images/bananas.JPG" alt="Bananas For Statistics Screenshot" style="width:100%; height:50%">
@@ -197,6 +223,5 @@
     <div class="footer bg-custom text-center">
         <p class="mb-0 pb-3">Updated January 2022</p>
     </div>
-
 </body>
 </html>
