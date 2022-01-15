@@ -33,6 +33,18 @@ h2 {
     height: 400px;
 }
 
+.bg-modal {
+    background-color: rgb(142,162,176);
+}
+
+.modal-header {
+    border-bottom: 1px solid black;
+}
+
+.modal-footer {
+    border-top: 1px solid black;
+}
+
 @media screen and (max-width: 576px) {
     .card {
         float: none!important;
