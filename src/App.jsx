@@ -6,8 +6,10 @@ import Projects from './Projects';
 import Skills from './Skills';
 import ContactMe from './ContactMe';
 import Footer from './Footer';
+import LanguageToggler from './LanguageToggler';
 
 function App() {
+  const [language, setLanguage] = useState('en');
   const [selectedTab, setSelectedTab] = useState('about');
 
   return (
@@ -22,6 +24,10 @@ function App() {
             Full Stack Web Developer
           </h3>
         </div>
+        <LanguageToggler
+          language={language}
+          setLanguage={setLanguage}
+        />
       </div>
       <MyTabs 
         setSelectedTab={setSelectedTab}
