@@ -1,6 +1,9 @@
+import { useState } from 'react';
 import './App.css'
+import MyTabs from './MyTabs';
 
 function App() {
+  const [selectedTab, setSelectedTab] = useState('about');
 
   return (
     <div>
@@ -15,12 +18,29 @@ function App() {
           </h3>
         </div>
       </div>
-      <div>
-        Navigation
-      </div>
-      <div>
-        Body
-      </div>
+      <MyTabs 
+        setSelectedTab={setSelectedTab}
+      />
+      {selectedTab === 'about' &&
+        <div>
+          Here's about me
+        </div>
+      }
+      {selectedTab === 'projects' &&
+        <div>
+          Here are projects
+        </div>
+      }
+      {selectedTab === 'skills' &&
+        <div>
+          Here are my skills
+        </div>
+      }
+      {selectedTab === 'resume' &&
+        <div>
+          Here's my resume
+        </div>
+      }
       <div>
         Footer
       </div>
