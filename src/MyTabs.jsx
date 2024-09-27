@@ -27,9 +27,9 @@ function MyTabs({
             </Button>
             <Button 
                 className='tab'
-                onClick={() => setSelectedTab('resume')}
+                onClick={() => setSelectedTab('contact')}
             >
-                Resume
+                Contact Me
             </Button>
         </div>
     )

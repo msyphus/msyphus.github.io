@@ -25,7 +25,10 @@ function AboutMe() {
                 automating product quality designation decisions. Throughout my years of management and consulting experience, I kept 
                 seeing a common problem across all companies large and small, no matter the industry: Everyone needs software tools to 
                 perform their jobs but the software tools frequently create severe problems. An operation can only be as efficient as 
-                its software allows it to be. Therefore, when I create software, I focus on creating something that makes the user more productive.
+                its software allows it to be. Therefore I now create software with the intent of improving productivity for users, businesses, and developers.
+            </p>
+            <p>
+                Click <a>here</a> to download a copy of my current resume.
             </p>
         </div>
     )

@@ -2,6 +2,10 @@ import { useState } from 'react';
 import './App.css'
 import MyTabs from './MyTabs';
 import AboutMe from './AboutMe';
+import Projects from './Projects';
+import Skills from './Skills';
+import ContactMe from './ContactMe';
+import Footer from './Footer';
 
 function App() {
   const [selectedTab, setSelectedTab] = useState('about');
@@ -26,23 +30,15 @@ function App() {
         <AboutMe />
       }
       {selectedTab === 'projects' &&
-        <div>
-          Here are projects
-        </div>
+        <Projects />
       }
       {selectedTab === 'skills' &&
-        <div>
-          Here are my skills
-        </div>
+        <Skills />
       }
-      {selectedTab === 'resume' &&
-        <div>
-          Here's my resume
-        </div>
+      {selectedTab === 'contact' &&
+        <ContactMe />
       }
-      <div>
-        Footer
-      </div>
+      <Footer />
     </div>
   )
 }
