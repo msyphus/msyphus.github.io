@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css'
 import MyTabs from './MyTabs';
+import AboutMe from './AboutMe';
 
 function App() {
   const [selectedTab, setSelectedTab] = useState('about');
@@ -22,9 +23,7 @@ function App() {
         setSelectedTab={setSelectedTab}
       />
       {selectedTab === 'about' &&
-        <div>
-          Here's about me
-        </div>
+        <AboutMe />
       }
       {selectedTab === 'projects' &&
         <div>
