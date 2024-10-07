@@ -6,7 +6,7 @@ function Footer() {
             bottom: 5,
             right: 15
         }}>
-            Page last updated September 26, 2024
+            WARNING: Page Under Construction. Last update October 7, 2024
         </div>
     )
 }
