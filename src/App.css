@@ -28,3 +28,17 @@
   width: 98%;
   padding: 15px;
 }
+
+.centered {
+  text-align: center;
+}
+
+.listDiv {
+  display: inline-block;
+  vertical-align: top;
+  width: 15vw;
+}
+
+li {
+  text-align: left;
+}

@@ -1,12 +1,12 @@
 function Skills() {
 
     return (
-        <div className='contentContainer'>
-            <div>
-                <div>
+        <div className='contentContainer centered'>
+            <div className='listDiv'>
+                <h3>
                     Coding skills include:
-                </div>
-                <ul>
+                </h3>
+                <ul className='listFormat'>
                     <li>Batch Script</li>
                     <li>Bootstrap</li>
                     <li>CSS</li>
@@ -30,22 +30,23 @@ function Skills() {
                     <li>XML</li>
                 </ul>
             </div>
-            <div>
-                <div>
+            <div className='listDiv'>
+                <h3>
                     Non-coding skills include:
-                </div>
+                </h3>
                 <ul>
                     <li>Agile</li>
                     <li>Auditing</li>
-                    <li>Lean Six Sigma</li>
-                    <li>Statistical Analysis</li>
-                    <li>Jira</li>
-                    <li>Project Management</li>
+                    <li>Business Management</li>
                     <li>Documentation</li>
-                    <li>Quality Management</li>
+                    <li>Lean Six Sigma</li>
+                    <li>Manufacturing</li>
+                    <li>Jira</li>
                     <li>Process Management</li>
+                    <li>Project Management</li>
+                    <li>Quality Management</li>
                     <li>Science</li>
-                    <li>Management</li>
+                    <li>Statistical Analysis</li>
                 </ul>
             </div>
         </div>
