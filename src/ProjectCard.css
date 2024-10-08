@@ -1,0 +1,14 @@
+.projectDiv {
+    display: inline-block;
+    width: 20vw;
+    height: 27vh;
+    vertical-align: top;
+    padding: 1%;
+    margin: 0 1% 1% 1%;
+    border: 2px solid #ccc;
+}
+
+.cardTitle {
+    font-weight: bold;
+    font-size: larger;
+}
