@@ -1,37 +1,42 @@
-import { Button } from "react-bootstrap";
+import { Tabs, Tab } from "react-bootstrap";
+import AboutMe from './AboutMe';
+import Projects from './Projects';
+import Skills from './Skills';
+import ContactMe from './ContactMe';
 import './MyTabs.css';
 
-function MyTabs({
-    setSelectedTab
-}) {
+function MyTabs() {
     
     return (
-        <div>
-            <Button 
-                className='tab'
-                onClick={() => setSelectedTab('about')}
+        <Tabs
+            defaultActiveKey={'about'}
+            fill
+        >
+            <Tab 
+                eventKey={'about'}
+                title={'About Me'}
             >
-                About Me
-            </Button>
-            <Button 
-                className='tab'
-                onClick={() => setSelectedTab('projects')}
+                <AboutMe />
+            </Tab>
+            <Tab 
+                eventKey={'projects'}
+                title={'Projects'}
             >
-                Projects
-            </Button>
-            <Button 
-                className='tab'
-                onClick={() => setSelectedTab('skills')}
+                <Projects />
+            </Tab>
+            <Tab 
+                eventKey={'skills'}
+                title={'Skills'}
             >
-                Skills
-            </Button>
-            <Button 
-                className='tab'
-                onClick={() => setSelectedTab('contact')}
+                <Skills />
+            </Tab>
+            <Tab 
+                eventKey={'contact'}
+                title={'Contact Me'}
             >
-                Contact Me
-            </Button>
-        </div>
+                <ContactMe />
+            </Tab>
+        </Tabs>
     )
 }
 

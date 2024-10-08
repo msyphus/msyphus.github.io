@@ -28,7 +28,7 @@ function AboutMe() {
                 its software allows it to be. Therefore I now create software with the intent of improving productivity for users, businesses, and developers.
             </p>
             <p>
-                Click <a>here</a> to download a copy of my current resume.
+                Click <a href="/Mark Syphus Resume.pdf" target="_blank" rel="noopener noreferrer">here</a> to download a copy of my current resume.
             </p>
         </div>
     )
