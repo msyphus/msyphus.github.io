@@ -3,38 +3,62 @@
         {
             "id": 0,
             "title": "Fish Finder",
-            "text": "Learn to distinguish different rockfish species.",
-            "url": "/fishFinder.png"
+            "shortDesc": "Learn to distinguish different rockfish species.",
+            "image": "/fishFinder.png",
+            "longDesc": "Rockfish are important for commercial and sport fisheries, yet some species are threatened or endangered.  Many species look similar, so distinguishing endangered or threatened species from least-concern species can be difficult. The purpose of this memory game is to improve abilities to discern different species of rockfish. More details can be found in the repository's Readme file.",
+            "techDesc": "React, Node, CSS, Bootstrap, Google Fonts, GitHub Pages",
+            "repoURL": "https://github.com/msyphus/fish-finder",
+            "deployURL": "https://msyphus.github.io/fish-finder/"
         },
         {
             "id": 1,
             "title": "Management Trivia",
-            "text": "Quiz your business management knowledge.",
-            "url": "/managementQuiz.png"
+            "shortDesc": "Quiz your business management knowledge.",
+            "image": "/managementQuiz.png",
+            "longDesc": "A trivia game built to teach business management and leadership principles. People in management roles are usually extremely busy, so this is a short, fun way for them to develop strong leadership skills geared towards creating happy shareholders, employees, and customers.",
+            "techDesc": "HTML, CSS, Bootstrap, JavaScript, jQuery, GitHub Pages",
+            "repoURL": "https://github.com/msyphus/trivia-game",
+            "deployURL": "https://msyphus.github.io/trivia-game/"
         },
         {
             "id": 2,
             "title": "Text Analysis",
-            "text": "Textual Analysis of my online articles and resume.",
-            "url": "/textAnalysis.png"
+            "shortDesc": "Textual Analysis of my online articles and resume.",
+            "image": "/textAnalysis.png",
+            "longDesc": "Data analytics for making business decisions doesn't just involve numbers.  This textual data analysis demonstrates how data analytics can be used on words.  This app scans my online presence by scraping my LinkedIn articles that I have written in addition to an uploaded resume at the time.",
+            "techDesc": "R, R Studio, CSS, shinydashboards.io",
+            "repoURL": "https://github.com/msyphus/text-analysis",
+            "deployURL": "https://msyphus.shinyapps.io/text-analysis/"
         },
         {
             "id": 3,
             "title": "Bananas For Statistics",
-            "text": "Statistics Tutorial for Lean Six Sigma Courses.",
-            "url": "/bananas.png"
+            "shortDesc": "Statistics Tutorial for Lean Six Sigma Courses.",
+            "image": "/bananas.png",
+            "longDesc": "Statistics taught on a Lean Six Sigma Green Belt level. This tutorial includes instructional YouTube videos explaining the uses of each statistical test, a dashboard showing the results of each test, and the code repository showing how to perform each test.",
+            "techDesc": "R, R Studio, CSS, shinydashboards.io",
+            "repoURL": "https://github.com/msyphus/bananas",
+            "deployURL": "https://msyphus.shinyapps.io/bananas/"
         },
         {
             "id": 4,
             "title": "eCR Now App",
-            "text": "Automated medical reporting of public health issues.",
-            "url": "/eCRNow.png"
+            "shortDesc": "Automated medical reporting of public health issues.",
+            "image": "/eCRNow.png",
+            "longDesc": "This project was funded by the Association of Public Health Laboratories.  Basically, this app automatically notifies public health departments in the USA when test results indicate a public health concern.  This project was prioritized during the COVID-19 pandemic.  I was a consultant on the project serving as project manager and a developer during the early stages of the development.  Development work included tasks such as parsing third-party JSON files to create rules for the app, creating implementation guides, updating diagrams, and working on a compiler for proprietary language for the app.  A link to an explanation of the app is provided in the button below.  I will not show up as a contributor on the repository listed on this page because my work was on a private repo used by the consulting firm prior to merging with work performed by another firm.",
+            "techDesc": "Java, XML, JSON, CQL, FSH, SUSHI, FHIR IG Publisher, Docker, Jekyll",
+            "repoURL": "https://ecr.aimsplatform.org/general/ecr-now-fhir-app",
+            "deployURL": "none"
         },
         {
             "id": 5,
             "title": "Enterprise Web",
-            "text": "Web software for running manufacturing facilities.",
-            "url": "/Enterprise.png"
+            "shortDesc": "Web software for running manufacturing facilities.",
+            "image": "/Enterprise.png",
+            "longDesc": "This web app is used to run McWane Ductile manufacturing facilities across the USA.  It handles all aspects of the business, including (but not limited to): task and project management, purchasing requests and orders, inventory management, production scheduling, operation of production lines, production dashboards, and automated email notifications.  I have worked on every part of the app, including deployment setup, communicating with third-party equipment and other software programs, new feature development, app optimization, UI/UX, troubleshooting and bug fixing, code review and testing, database design, security, etc.  I also translated legacy Delphi code from an old desktop app into modern web-based modules.  The app is currently being used for manufacturing operations in multiple facilities and is behind a company firewall.  Therefore, it is not public facing and cannot be viewed.  Additionally, the repository is a private BitBucket repository.  Sorry.",
+            "techDesc": "React, Node, Express, SQL, SSMS, Sequelize, CSS, Bootstrap, DevExtreme, Docker, Nginx, PM2, Windows IIS, Open SSL, Batch Script, Socket.io, React Redux, Delphi, Windows Server, Linux",
+            "repoURL": "none",
+            "deployURL": "none"
         }
     ]
 }

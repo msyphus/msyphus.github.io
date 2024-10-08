@@ -3,9 +3,11 @@ import {
     Button, 
     Card 
 } from 'react-bootstrap';
+import ProjectModal from './ProjectModal';
 import './ProjectCard.css';
 
 function ProjectCard({
+    projID,
     projImg,
     projText,
     projTitle
@@ -33,6 +35,11 @@ function ProjectCard({
                     </Button>
                 </Card.Body>
             </Card>
+            <ProjectModal
+                id={projID}
+                showModal={showModal}
+                setShowModal={setShowModal}
+            />
         </div>
     )
 }

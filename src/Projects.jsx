@@ -9,9 +9,10 @@ function Projects() {
             {sortedProjects.map(e => {
                 return (
                     <ProjectCard
-                        key={e.id}    
-                        projImg={e.url}
-                        projText={e.text}
+                        key={e.id}   
+                        projID={e.id} 
+                        projImg={e.image}
+                        projText={e.shortDesc}
                         projTitle={e.title}
                     />
                 )
