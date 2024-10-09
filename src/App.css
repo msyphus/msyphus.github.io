@@ -31,29 +31,10 @@ a {
   border-top: none;
 }
 
-.header {
-  position: relative;
-}
-
 .profile {
-  position: absolute;
-  height: 100%;
-}
-
-.nameDiv {
-  padding-top: 8vh;
-  padding-bottom: 8vh;
-  text-align: center;
-}
-
-.name {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.title {
-  margin-top: 5px;
-  margin-bottom: 0;
+  height: 30vh;
+  position: relative;
+  left: calc(var(--bs-gutter-x)* -.5);
 }
 
 .contentContainer {
@@ -74,4 +55,20 @@ a {
 
 li {
   text-align: left;
+}
+
+.footer {
+  text-align: right;
+  margin-right: 5px;
+}
+
+.titleRow {
+  margin-top: 10vh;
+  text-align: center;
+}
+
+@media screen and (max-width: 612px) {
+  .titleRow {
+    margin-top: 5vh;
+  }
 }
