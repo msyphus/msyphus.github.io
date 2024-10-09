@@ -30,12 +30,12 @@ function ProjectModal({
             </Modal.Body>
             <Modal.Footer>
                 {data.deployURL !== 'none' &&
-                    <Button href={data.deployURL}>
+                    <Button href={data.deployURL} target='_blank' rel='noopener noreferrer'>
                         View App
                     </Button>
                 }
                 {data.repoURL !== 'none' &&
-                    <Button href={data.repoURL}>
+                    <Button href={data.repoURL} target='_blank' rel='noopener noreferrer'>
                         Repository
                     </Button>
                 }

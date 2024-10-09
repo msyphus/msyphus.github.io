@@ -2,7 +2,6 @@ import {
     Button, 
     Card 
 } from 'react-bootstrap';
-import './ProjectCard.css';
 
 function ProjectCard({
     projID,

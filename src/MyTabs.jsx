@@ -3,7 +3,6 @@ import AboutMe from './AboutMe';
 import Projects from './Projects';
 import Skills from './Skills';
 import ContactMe from './ContactMe';
-import './MyTabs.css';
 
 function MyTabs() {
     
