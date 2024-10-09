@@ -19,7 +19,11 @@ function App() {
             <h1>Mark Syphus</h1>
           </Row>
           <Row className='text-center'>
-            <h3>Full Stack Web Developer</h3>
+            {language === 'en' ? 
+              <h3>Full Stack Web Developer</h3>
+              :
+              <h3>Desarrollador de Pila Completa</h3>
+            }
           </Row>
           <Row className='text-center'>
             <Col className='px-0'>
@@ -62,10 +66,14 @@ function App() {
         </Col>
       </Row>
         <Row>
-          <MyTabs />
+          <MyTabs 
+            language={language}
+          />
         </Row>
       <Row>
-        <Footer />
+        <Footer 
+          language={language}
+        />
       </Row>
     </div>
   )

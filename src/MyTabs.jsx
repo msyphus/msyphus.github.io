@@ -3,7 +3,9 @@ import AboutMe from './AboutMe';
 import Projects from './Projects';
 import Skills from './Skills';
 
-function MyTabs() {
+function MyTabs({
+    language
+}) {
     
     return (
         <Tabs
@@ -12,21 +14,27 @@ function MyTabs() {
         >
             <Tab 
                 eventKey={'about'}
-                title={'About Me'}
+                title={language === 'en' ? 'About Me' : 'Acerca de Mí'}
             >
-                <AboutMe />
+                <AboutMe 
+                    language={language}
+                />
             </Tab>
             <Tab 
                 eventKey={'projects'}
-                title={'Projects'}
+                title={language === 'en' ? 'Projects' : 'Proyectos'}
             >
-                <Projects />
+                <Projects 
+                    language={language}
+                />
             </Tab>
             <Tab 
                 eventKey={'skills'}
-                title={'Skills'}
+                title={language === 'en' ? 'Skills' : 'Competencias'}
             >
-                <Skills />
+                <Skills 
+                    language={language}
+                />
             </Tab>
         </Tabs>
     )
