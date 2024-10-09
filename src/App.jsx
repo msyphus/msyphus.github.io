@@ -61,11 +61,9 @@ function App() {
           />
         </Col>
       </Row>
-      <div className='scrollingDiv'>
         <Row>
           <MyTabs />
         </Row>
-      </div>
       <Row>
         <Footer />
       </Row>

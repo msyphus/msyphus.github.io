@@ -1,7 +1,7 @@
 function Skills() {
 
     return (
-        <div className='contentContainer centered'>
+        <div className='scrollingDiv centered'>
             <div className='listDiv'>
                 <h3>
                     Coding skills include:

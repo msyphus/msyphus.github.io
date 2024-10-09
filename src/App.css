@@ -47,12 +47,6 @@ a {
   margin-top: 3%;
 }
 
-.contentContainer {
-  height: 50vh;
-  width: 98%;
-  padding: 15px;
-}
-
 .centered {
   text-align: center;
 }
@@ -80,20 +74,20 @@ li {
 }
 
 .scrollingDiv {
-  height: 65vh;
+  height: 63vh;
   overflow-y: scroll;
   overflow-x: hidden;
 }
 
 @media screen and (max-width: 767px) {
   .languageToggle {
-    text-align: left;
-    margin-top: 0;
-    margin-left: calc(var(--bs-gutter-x) * -.5)
+    position: absolute;
+    top: 0;
+    right: 15px;
   }
 
   .scrollingDiv {
-    height: 60vh;
+    height: 58vh;
   }
 }
 
@@ -103,6 +97,10 @@ li {
   }
 
   .scrollingDiv {
-    height: 40vh;
+    height: 37vh;
+  }
+
+  .profile {
+    height: 15vh;
   }
 }

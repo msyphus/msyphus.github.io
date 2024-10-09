@@ -2,7 +2,7 @@
 function AboutMe() {
 
     return(
-        <div className='contentContainer'>
+        <div className='scrollingDiv'>
             <p>
                 Bilingual (English/Spanish) Full Stack Web Developer with diverse experience in all aspects of software development
                 coupled with strong background in business management, process engineering, science, and data analytics.  As such, I'm a tech nerd 

@@ -11,7 +11,7 @@ function Projects() {
     const sortedProjects = projects.sort((a, b) => a.id < b.id ? 1 : -1)
 
     return (
-        <div className='contentContainer'>
+        <div className='scrollingDiv'>
             <CardGroup>
                 {sortedProjects.map(e => {
                     return (
