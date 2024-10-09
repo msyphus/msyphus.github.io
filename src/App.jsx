@@ -11,10 +11,10 @@ function App() {
   return (
     <div className='px-3'>
       <Row className='header'>
-        <Col>
+        <Col sm={4} md={2}>
           <img className='profile' src='/profilePic.jpg' alt="Mark's profile picture" />
         </Col>
-        <Col>
+        <Col sm={8}>
           <Row className='titleRow'>
             <h1>Mark Syphus</h1>
           </Row>
@@ -54,7 +54,7 @@ function App() {
             </Col>
           </Row>
         </Col>
-        <Col>
+        <Col sm={4} md={2}>
           <LanguageToggler
             language={language}
             setLanguage={setLanguage}

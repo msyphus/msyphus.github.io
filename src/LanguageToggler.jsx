@@ -6,11 +6,7 @@ function LanguageToggler({
 }) {
 
     return (
-        <div style={{
-            position: 'absolute',
-            top: 5,
-            right: 15
-        }}>
+        <div className='languageToggle'>
             <Button
                 onClick={() => language === 'en' ? setLanguage('es') : setLanguage('en')}
             >
