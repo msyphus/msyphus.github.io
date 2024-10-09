@@ -1,14 +1,9 @@
-.projectDiv {
-    display: inline-block;
-    width: 20vw;
-    height: 27vh;
-    vertical-align: top;
-    padding: 1%;
-    margin: 0 1% 1% 1%;
-    border: 2px solid #ccc;
+.modal-header {
+    font-weight: bold !important;
+    font-size: larger !important;
 }
 
-.cardTitle {
-    font-weight: bold;
-    font-size: larger;
+.card-footer {
+    background-color: white;
+    border-top: none;
 }

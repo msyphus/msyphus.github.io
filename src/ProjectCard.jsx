@@ -1,46 +1,43 @@
-import { useState } from 'react';
 import { 
     Button, 
     Card 
 } from 'react-bootstrap';
-import ProjectModal from './ProjectModal';
 import './ProjectCard.css';
 
 function ProjectCard({
     projID,
     projImg,
     projText,
-    projTitle
+    projTitle,
+    setModalID,
+    setShowModal
 }) {
-    const [showModal, setShowModal] = useState(false);
 
     return (
-        <div className='projectDiv'>
-            <Card>
-                <Card.Img 
-                    variant='top' 
-                    src={projImg} 
-                    width={'100%'} 
-                    height={'150vh'}
-                />
-                <Card.Body>
-                    <Card.Title className={'cardTitle'}>
-                        {projTitle}
-                    </Card.Title>
-                    <Card.Text>
-                        {projText}
-                    </Card.Text>
-                    <Button onClick={() => setShowModal(true)}>
-                        Learn More
-                    </Button>
-                </Card.Body>
-            </Card>
-            <ProjectModal
-                id={projID}
-                showModal={showModal}
-                setShowModal={setShowModal}
+        <Card>
+            <Card.Img 
+                variant='top' 
+                src={projImg} 
+                width={120} 
+                height={100}
             />
-        </div>
+            <Card.Body>
+                <Card.Title>
+                    {projTitle}
+                </Card.Title>
+                <Card.Text>
+                    {projText}
+                </Card.Text>
+            </Card.Body>
+            <Card.Footer>
+                <Button onClick={() => {
+                    setModalID(projID)
+                    setShowModal(true)
+                }}>
+                    Learn More
+                </Button>
+            </Card.Footer>
+        </Card>
     )
 }
 
