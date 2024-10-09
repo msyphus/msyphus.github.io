@@ -7,6 +7,11 @@ a {
   border-color: rebeccapurple;
 }
 
+.icon {
+  margin-right: 10px;
+  font-size: 32px;
+}
+
 .nav-link {
   background-color: rebeccapurple;
   color: white;
@@ -63,12 +68,12 @@ li {
 }
 
 .titleRow {
-  margin-top: 10vh;
+  margin-top: 6vh;
   text-align: center;
 }
 
-@media screen and (max-width: 612px) {
+@media screen and (max-width: 654px) {
   .titleRow {
-    margin-top: 5vh;
+    margin-top: 1vh;
   }
 }
