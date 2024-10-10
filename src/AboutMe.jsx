@@ -11,14 +11,14 @@ function AboutMe() {
                     <p>
                         Bilingual (English/Spanish) Full Stack Web Developer with diverse experience in all aspects of software development
                         coupled with strong background in business management, process engineering, science, and data analytics.  As such, I'm a tech nerd 
-                        with people skills!  I know how to document procedures and explain tools in a way non-tech people can understand.  I know 
-                        how to make software tools that make business processes more efficient for end users.  I know how to collect, analyze, and 
-                        visualize data so that it makes sense and leads managers in making good decisions.  I know how to work with people and computers!
+                        with people skills!  I know how to document procedures and explain tools in a way non-tech people can understand, 
+                        how to make software tools that make business processes more efficient for end users, and how to collect, analyze, and 
+                        visualize data so that it makes sense and leads managers in making good decisions.  In short, I know how to work with people and computers!
                     </p>
                     <p>
                         I've been a full stack web developer for over 4 years.  Most of this experience has been developing tools for use in 
-                        manufacturing facilities.  I've done everything from redesigning the app to improve user experience, optimizing performance of the app, 
-                        setting up how the app deploys, migrating the app to new servers, communicating with third-party manufacturing equipment, 
+                        manufacturing facilities.  I've done everything from redesigning the app to improve user experience, optimizing performance, 
+                        setting up how the app deploys, server migration, communicating with third-party manufacturing equipment, 
                         generating automated email notifications, maintaining existing features, and creating new features such as real-time production dashboards, 
                         inventory management tools, purchasing requests/ordering systems, project management tools, and production record keeping tools. 
                     </p>
@@ -41,15 +41,15 @@ function AboutMe() {
                     <p>
                         Desarrollador de Pila Completa bilingüe (inglés/español) con experiencia diversa en todos los aspectos del desarrollo de software junto con 
                         una sólida experiencia en gestión empresarial, ingeniería de procesos, ciencia y análisis de datos.  Como tal, soy un nerd tecnológico con 
-                        habilidades interpersonales!  Sé cómo documentar procesos y explicar herramientas en una manera que puedan entender las personas que no son tecnológicas.  
-                        Sé cómo crear herramientas de software que hacen los procesos empresariales más eficientes para los usuarios finales.  Sé cómo recoger, analizar y visualizar 
-                        los datos en una manera clara sentido que guíen a los gerentes para tomar buenas decisiones.  Sé cómo trabajar con personas y computadoras!
+                        habilidades interpersonales!  Sé cómo documentar procesos y explicar herramientas en una manera que puedan entender las personas que no son tecnológicas,  
+                        cómo crear herramientas de software que hacen los procesos empresariales más eficientes para los usuarios finales, cómo recoger, analizar y visualizar 
+                        los datos en una manera clara que guíen a los gerentes para tomar buenas decisiones.  En resumen, sé cómo trabajar con personas y computadoras!
                     </p>
                     <p>
                         He sido un desarrollador de Pila Completa por más de 4 años.  La mayoría de esta experiencia ha sido el desarrollo de herramientas para 
-                        instalaciones de fabricación.  He hecho todo los aspectos de software incluyendo rediseñar la aplicación para mejorar la experiencia del usuario, optimizar el rendimiento de la aplicación, 
-                        configuración de la forma en que se despliega la aplicación, migración de la aplicación a nuevos servidores, comunicación con equipos de fabricación de terceros, 
-                        generar notificaciones automatizadas por correo electrónico, mantener las funciones existentes y crear nuevas funciones como los tableros de producción en tiempo real, 
+                        instalaciones de fabricación.  He hecho todo los aspectos de software incluyendo rediseñar la aplicación para mejorar la experiencia del usuario, optimizando el rendimiento, 
+                        configuración de la forma de despliegue, migración de servidores, comunicación con equipos de fabricación de terceros, 
+                        generación de notificaciones automatizadas por correo electrónico, manteniendo las funciones existentes y creando nuevas funciones como los tableros de producción en tiempo real, 
                         herramientas de gestión de inventario, sistemas de compra, herramientas de gestión de proyectos y herramientas de mantenimiento de registros de producción. 
                     </p>
                     <p>
@@ -63,7 +63,7 @@ function AboutMe() {
                         su software permite que sea. Por lo tanto, ahora creo software con la intención de mejorar la productividad para los usuarios, empresas y desarrolladores.
                     </p>
                     <p>
-                        Pulse <a href="/Mark Syphus Resume.pdf" target="_blank" rel="noopener noreferrer">aquí</a> para descargar una copia de mi currículum actual.
+                        Pulse <a href="/Mark Syphus Resume.pdf" target="_blank" rel="noopener noreferrer">aquí</a> para descargar una copia de mi currículum actual (solo en inglés por ahora).
                     </p>
                 </>
             }

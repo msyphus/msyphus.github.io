@@ -34,7 +34,7 @@ function ProjectModal({
             <Modal.Footer>
                 {data.deployURL !== 'none' &&
                     <Button href={data.deployURL} target='_blank' rel='noopener noreferrer'>
-                        {language === 'en' ? 'View App' : 'Ver Aplicación: '}
+                        {language === 'en' ? 'View App' : 'Ver Aplicación'}
                     </Button>
                 }
                 {data.repoURL !== 'none' &&

@@ -16,7 +16,7 @@
         {
             "id": 1,
             "title": "Management Trivia",
-            "titulo": "Trivia de gestión",
+            "titulo": "Trivia de Gestión",
             "shortDesc": "Test your business management knowledge.",
             "descCorta": "Prueba tus conocimientos de gestión empresarial.",
             "image": "/managementQuiz.png",
@@ -33,8 +33,8 @@
             "shortDesc": "Textual Analysis of my online articles and resume.",
             "descCorta": "Análisis textual de mis artículos en línea y currículum.",
             "image": "/textAnalysis.png",
-            "longDesc": "Data analytics for making business decisions doesn't just involve numbers.  This textual data analysis demonstrates how data analytics can be used on words.  This app scans my online presence by scraping my LinkedIn articles that I have written in addition to an uploaded resume at the time.",
-            "descLarga": "El análisis de datos para tomar decisiones comerciales no solo involucra números.  Este análisis de datos textuales demuestra cómo se puede utilizar el análisis de datos sobre palabras.  Esta aplicación escanea mi presencia en línea por raspado web de mis artículos de LinkedIn que he escrito y un currículum cargado en el momento.",
+            "longDesc": "Data analytics for making business decisions doesn't just involve numbers.  This textual data analysis demonstrates how data analytics can be used on words.  The app scans my online presence by scraping my LinkedIn articles that I have written in addition to analyzing an uploaded resume at the time.",
+            "descLarga": "El análisis de datos para tomar decisiones comerciales no solo involucra números.  Este análisis de datos textuales demuestra cómo se puede utilizar el análisis de datos sobre palabras.  Esta aplicación escanea mi presencia en línea por raspado web de mis artículos de LinkedIn que he escrito y analiza un currículum cargado en el momento.",
             "techDesc": "R, R Studio, CSS, shinydashboards.io",
             "repoURL": "https://github.com/msyphus/text-analysis",
             "deployURL": "https://msyphus.shinyapps.io/text-analysis/"
@@ -46,8 +46,8 @@
             "shortDesc": "Statistics Tutorial for Lean Six Sigma Courses.",
             "descCorta": "Tutorial de estadísticas para cursos de Lean Seis Sigma",
             "image": "/bananas.png",
-            "longDesc": "Statistics taught on a Lean Six Sigma Green Belt level. This tutorial includes instructional YouTube videos explaining the uses of each statistical test, a dashboard showing the results of each test, and the code repository showing how to perform each test.",
-            "descLarga": "Estadísticas enseñadas en un nivel de Lean Seis Sigma Cinturón Verde. Este tutorial incluye videos instructivos de YouTube que explican los usos de cada prueba estadística, un tablero que muestra los resultados de cada prueba y el repositorio de código que muestra cómo realizar cada prueba.",
+            "longDesc": "Statistics taught on a Lean Six Sigma Green Belt level. This tutorial includes instructional YouTube videos explaining the uses of each statistical test, a dashboard showing the results, and the code repository showing how to perform each test.",
+            "descLarga": "Estadísticas enseñadas en un nivel de Lean Seis Sigma Cinturón Verde. Este tutorial incluye videos instructivos de YouTube que explican los usos de cada prueba estadística, un tablero que muestra los resultados y el repositorio de código que muestra cómo realizar cada prueba.",
             "techDesc": "R, R Studio, CSS, shinydashboards.io",
             "repoURL": "https://github.com/msyphus/bananas",
             "deployURL": "https://msyphus.shinyapps.io/bananas/"
