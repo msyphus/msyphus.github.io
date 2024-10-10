@@ -31,18 +31,20 @@ function ProjectModal({
                     {language === 'en' ? 'Technologies Used: ' : 'Tecnologías Utilizadas: '} {data.techDesc}
                 </p>
             </Modal.Body>
-            <Modal.Footer>
-                {data.deployURL !== 'none' &&
-                    <Button href={data.deployURL} target='_blank' rel='noopener noreferrer'>
-                        {language === 'en' ? 'View App' : 'Ver Aplicación'}
-                    </Button>
-                }
-                {data.repoURL !== 'none' &&
-                    <Button href={data.repoURL} target='_blank' rel='noopener noreferrer'>
-                        {language === 'en' ? 'Repository' : 'Repositorio'}
-                    </Button>
-                }
-            </Modal.Footer>
+            {!(data.deployURL === 'none' && data.repoURL === 'none') &&
+                <Modal.Footer>
+                    {data.deployURL !== 'none' &&
+                        <Button href={data.deployURL} target='_blank' rel='noopener noreferrer'>
+                            {language === 'en' ? 'View App' : 'Ver Aplicación'}
+                        </Button>
+                    }
+                    {data.repoURL !== 'none' &&
+                        <Button href={data.repoURL} target='_blank' rel='noopener noreferrer'>
+                            {language === 'en' ? 'Repository' : 'Repositorio'}
+                        </Button>
+                    }
+                </Modal.Footer>
+            }
         </Modal>
         </>
     )
