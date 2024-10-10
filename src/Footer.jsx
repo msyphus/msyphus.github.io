@@ -6,7 +6,7 @@ function Footer() {
 
     return (
         <div className='footer'>
-            {language === 'en' ? 'Updated October 9, 2024' : 'Actualizado el 9 de Octubre, 2024'}
+            {language === 'en' ? 'Updated October 10, 2024' : 'Actualizado el 10 de Octubre, 2024'}
         </div>
     )
 }

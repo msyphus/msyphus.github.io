@@ -1,14 +1,17 @@
+import { useContext } from 'react';
 import { 
     Button, 
     Modal 
 } from 'react-bootstrap';
 import { projects } from './ProjectsData.json';
+import { LanguageContext } from "./App";
 
 function ProjectModal({
     id,
     showModal,
     setShowModal
 }) {
+    const { language } = useContext(LanguageContext);
     const data = projects.find(e => e.id === id);
 
     return(
@@ -18,25 +21,25 @@ function ProjectModal({
             onHide={() => setShowModal(false)}
         >
             <Modal.Header closeButton>
-                {data.title}
+                {language === 'en' ? data.title : data.titulo}
             </Modal.Header>
             <Modal.Body>
                 <p>
-                    {data.longDesc}
+                    {language === 'en' ? data.longDesc : data.descLarga}
                 </p>
                 <p>
-                    Technologies Used: {data.techDesc}
+                    {language === 'en' ? 'Technologies Used: ' : 'Tecnologías Utilizadas: '} {data.techDesc}
                 </p>
             </Modal.Body>
             <Modal.Footer>
                 {data.deployURL !== 'none' &&
                     <Button href={data.deployURL} target='_blank' rel='noopener noreferrer'>
-                        View App
+                        {language === 'en' ? 'View App' : 'Ver Aplicación: '}
                     </Button>
                 }
                 {data.repoURL !== 'none' &&
                     <Button href={data.repoURL} target='_blank' rel='noopener noreferrer'>
-                        Repository
+                        {language === 'en' ? 'Repository' : 'Repositorio'}
                     </Button>
                 }
             </Modal.Footer>

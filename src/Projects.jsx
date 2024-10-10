@@ -20,7 +20,9 @@ function Projects() {
                             projID={e.id} 
                             projImg={e.image}
                             projText={e.shortDesc}
+                            projTexto={e.descCorta}
                             projTitle={e.title}
+                            projTitulo={e.titulo}
                             setShowModal={setShowModal}
                             setModalID={setModalID}
                         />

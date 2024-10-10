@@ -1,16 +1,21 @@
+import { useContext } from 'react';
 import { 
     Button, 
     Card 
 } from 'react-bootstrap';
+import { LanguageContext } from "./App";
 
 function ProjectCard({
     projID,
     projImg,
     projText,
+    projTexto,
     projTitle,
+    projTitulo,
     setModalID,
     setShowModal
 }) {
+    const { language } = useContext(LanguageContext);
 
     return (
         <Card>
@@ -22,10 +27,10 @@ function ProjectCard({
             />
             <Card.Body>
                 <Card.Title>
-                    {projTitle}
+                    {language === 'en' ? projTitle : projTitulo}
                 </Card.Title>
                 <Card.Text>
-                    {projText}
+                    {language === 'en' ? projText : projTexto}
                 </Card.Text>
             </Card.Body>
             <Card.Footer>
@@ -33,7 +38,7 @@ function ProjectCard({
                     setModalID(projID)
                     setShowModal(true)
                 }}>
-                    Learn More
+                    {language === 'en' ? 'Learn More' : 'Aprende Más'}
                 </Button>
             </Card.Footer>
         </Card>
