@@ -52,6 +52,19 @@ function AboutMe() {
                         generar notificaciones automatizadas por correo electrónico, mantener las funciones existentes y crear nuevas funciones como los tableros de producción en tiempo real, 
                         herramientas de gestión de inventario, sistemas de compra, herramientas de gestión de proyectos y herramientas de mantenimiento de registros de producción. 
                     </p>
+                    <p>
+                        Antes de mi carrera en el desarrollo de software, adquirí fuertes habilidades de programación a través de 8 años de programación estadística y Microsoft VBA. 
+                        Como programador de segunda generación, tuve una introducción a la programación cuando era niño. Después de crecer y convertirse en un 
+                        científico de clase mundial, mis habilidades de programación R se convirtió en un activo poderoso en mis responsabilidades laborales regulares. También 
+                        aprendí a utilizar Excel VBA para crear herramientas sofisticadas que ayuden la revisión de la gestión, la recogida de datos y 
+                        automatización de las decisiones de designación de la calidad del productos. Durante mis años de experiencia en gestión y consultoría, yo frecuentemente 
+                        ví un problema común en todas las empresas grandes y pequeñas, sin importar la industria: todo el mundo necesita herramientas de software para 
+                        realizar sus tareas, pero las herramientas de software con frecuencia crean problemas graves. Una operación sólo puede ser tan eficiente como 
+                        su software permite que sea. Por lo tanto, ahora creo software con la intención de mejorar la productividad para los usuarios, empresas y desarrolladores.
+                    </p>
+                    <p>
+                        Pulse <a href="/Mark Syphus Resume.pdf" target="_blank" rel="noopener noreferrer">aquí</a> para descargar una copia de mi currículum actual.
+                    </p>
                 </>
             }
         </div>
