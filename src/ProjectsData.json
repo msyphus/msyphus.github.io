@@ -3,9 +3,12 @@
         {
             "id": 0,
             "title": "Fish Finder",
+            "titulo": "Buscador de Peces",
             "shortDesc": "Learn to distinguish different rockfish species.",
+            "descCorta": "Aprende A distinguir especies diferentes de rocotes",
             "image": "/fishFinder.png",
             "longDesc": "Rockfish are important for commercial and sport fisheries, yet some species are threatened or endangered.  Many species look similar, so distinguishing endangered or threatened species from least-concern species can be difficult. The purpose of this memory game is to improve abilities to discern different species of rockfish. More details can be found in the repository's Readme file.",
+            "descLarga": "Rocotes son importantes por pesquerías comerciales y deportivas, pero algunas especies son amenazadas o en peligro. Muchos especies parecen similar, por lo tanto puede ser difícil a distinguir especies en peligro o amenazadas entre especies de mínima preocupación. El propósito de este juego de memoria es mejorar las habilidades para discernir especies diferentes rocotes. Puede encontrar más detalles en el archivo leáme del repositorio.",
             "techDesc": "React, Node, CSS, Bootstrap, Google Fonts, GitHub Pages",
             "repoURL": "https://github.com/msyphus/fish-finder",
             "deployURL": "https://msyphus.github.io/fish-finder/"
@@ -13,9 +16,12 @@
         {
             "id": 1,
             "title": "Management Trivia",
-            "shortDesc": "Quiz your business management knowledge.",
+            "titulo": "Trivia de gestión",
+            "shortDesc": "Test your business management knowledge.",
+            "descCorta": "Prueba tus conocimientos de gestión empresarial.",
             "image": "/managementQuiz.png",
             "longDesc": "A trivia game built to teach business management and leadership principles. People in management roles are usually extremely busy, so this is a short, fun way for them to develop strong leadership skills geared towards creating happy shareholders, employees, and customers.",
+            "descLarga": "Un juego de trivia para enseñar los principios de gestión empresarial y liderazgo. Las personas en funciones de gestión usualmente son extremadamente ocupadas, por tanto esta es una forma corta y divertida para desarrollar habilidades fuertes de liderazgo orientadas a creando accionistas, empleados y clientes felices.",
             "techDesc": "HTML, CSS, Bootstrap, JavaScript, jQuery, GitHub Pages",
             "repoURL": "https://github.com/msyphus/trivia-game",
             "deployURL": "https://msyphus.github.io/trivia-game/"
@@ -23,9 +29,12 @@
         {
             "id": 2,
             "title": "Text Analysis",
+            "titulo": "Análisis de Texto",
             "shortDesc": "Textual Analysis of my online articles and resume.",
+            "descCorta": "Análisis textual de mis artículos en línea y currículum.",
             "image": "/textAnalysis.png",
             "longDesc": "Data analytics for making business decisions doesn't just involve numbers.  This textual data analysis demonstrates how data analytics can be used on words.  This app scans my online presence by scraping my LinkedIn articles that I have written in addition to an uploaded resume at the time.",
+            "descLarga": "El análisis de datos para tomar decisiones comerciales no solo involucra números.  Este análisis de datos textuales demuestra cómo se puede utilizar el análisis de datos sobre palabras.  Esta aplicación escanea mi presencia en línea por raspado web de mis artículos de LinkedIn que he escrito y un currículum cargado en el momento.",
             "techDesc": "R, R Studio, CSS, shinydashboards.io",
             "repoURL": "https://github.com/msyphus/text-analysis",
             "deployURL": "https://msyphus.shinyapps.io/text-analysis/"
@@ -33,9 +42,12 @@
         {
             "id": 3,
             "title": "Bananas For Statistics",
+            "titulo": "Plátanos para Estadísticas",
             "shortDesc": "Statistics Tutorial for Lean Six Sigma Courses.",
+            "descCorta": "Tutorial de estadísticas para cursos de Lean Seis Sigma",
             "image": "/bananas.png",
             "longDesc": "Statistics taught on a Lean Six Sigma Green Belt level. This tutorial includes instructional YouTube videos explaining the uses of each statistical test, a dashboard showing the results of each test, and the code repository showing how to perform each test.",
+            "descLarga": "Estadísticas enseñadas en un nivel de Lean Seis Sigma Cinturón Verde. Este tutorial incluye videos instructivos de YouTube que explican los usos de cada prueba estadística, un tablero que muestra los resultados de cada prueba y el repositorio de código que muestra cómo realizar cada prueba.",
             "techDesc": "R, R Studio, CSS, shinydashboards.io",
             "repoURL": "https://github.com/msyphus/bananas",
             "deployURL": "https://msyphus.shinyapps.io/bananas/"
@@ -43,9 +55,12 @@
         {
             "id": 4,
             "title": "eCR Now App",
+            "titulo": "Aplicación eCR Now",
             "shortDesc": "Automated medical reporting of public health issues.",
+            "descCorta": "Informes médicos automatizados sobre problemas de salud pública.",
             "image": "/eCRNow.png",
             "longDesc": "This project was funded by the Association of Public Health Laboratories.  Basically, this app automatically notifies public health departments in the USA when test results indicate a public health concern.  This project was prioritized during the COVID-19 pandemic.  I was a consultant on the project serving as project manager and a developer during the early stages of the development.  Development work included tasks such as parsing third-party JSON files to create rules for the app, creating implementation guides, updating diagrams, and working on a compiler for proprietary language for the app.  A link to an explanation of the app is provided in the button below.  I will not show up as a contributor on the repository listed on this page because my work was on a private repo used by the consulting firm prior to merging with work performed by another firm.",
+            "descLarga": "Este proyecto fue financiado por la Asociación de Laboratorios de Salud Pública.  Básicamente, esta aplicación notifica automáticamente a los departamentos de salud pública en los EEUU cuando los resultados de pruebas indican problemas de salud pública.  Este proyecto fue priorizado durante la pandemia de COVID-19.  Fui consultor del proyecto como gerente de proyecto y desarrollador durante las primeras etapas de desarrollo.  El trabajo de desarrollo incluyó tareas como analizar archivos JSON de terceros para crear reglas para la aplicación, crear guías de implementación, actualizar diagramas y trabajar en un compilador para el lenguaje propietario por la aplicación.  En el botón de abajo se proporciona un vínculo a una explicación de la aplicación.  No me presentaré como colaborador en el repositorio que se muestra en esta página porque mi trabajo estaba en un repositorio privado utilizado por la consultora antes de fusionarse con el trabajo realizado por otra consultora.",
             "techDesc": "Java, XML, JSON, CQL, FSH, SUSHI, FHIR IG Publisher, Docker, Jekyll",
             "repoURL": "https://ecr.aimsplatform.org/general/ecr-now-fhir-app",
             "deployURL": "none"
@@ -53,9 +68,12 @@
         {
             "id": 5,
             "title": "Enterprise Web",
+            "titulo": "Enterprise Web",
             "shortDesc": "Web software for running manufacturing facilities.",
+            "descCorta": "Software web para el funcionamiento de las instalaciones de fabricación",
             "image": "/Enterprise.png",
             "longDesc": "This web app is used to run McWane Ductile manufacturing facilities across the USA.  It handles all aspects of the business, including (but not limited to): task and project management, purchasing requests and orders, inventory management, production scheduling, operation of production lines, production dashboards, and automated email notifications.  I have worked on every part of the app, including deployment setup, communicating with third-party equipment and other software programs, new feature development, app optimization, UI/UX, troubleshooting and bug fixing, code review and testing, database design, security, etc.  I also translated legacy Delphi code from an old desktop app into modern web-based modules.  The app is currently being used for manufacturing operations in multiple facilities and is behind a company firewall.  Therefore, it is not public facing and cannot be viewed.  Additionally, the repository is a private BitBucket repository.  Sorry.",
+            "descLarga": "Esta aplicación web se utiliza para funcionar las instalaciones de fabricación de McWane Ductile en todo los EEUU.  Se encarga de todos los aspectos del negocio, incluyendo (pero no limitado a): gestión de tareas y proyectos, pedidos y órdenes de compra, gestión de inventario, programación de producción, operación de líneas de producción, tableros de producción y notificaciones automatizadas por correo electrónico.  He trabajado en todas las partes de la aplicación, incluyendo configuración de despliegue, comunicación con equipos de terceros y otros programas de software, desarrollo de nuevas funciones, optimización de aplicaciones, UI/UX, solución de problemas y corrección de errores, revisión de código y pruebas, diseño de base de datos, seguridad, etc.  También he traducido el código de Delphi heredado de una aplicación de escritorio antigua en módulos modernos basados en la web.  La aplicación se utiliza actualmente para las operaciones de fabricación en varias instalaciones y está detrás de un firewall de la empresa.  Por lo tanto, no es público y no se puede ver.  Además, el repositorio es un repositorio privado de BitBucket.  Lo siento.",
             "techDesc": "React, Node, Express, SQL, SSMS, Sequelize, CSS, Bootstrap, DevExtreme, Docker, Nginx, PM2, Windows IIS, Open SSL, Batch Script, Socket.io, React Redux, Delphi, Windows Server, Linux",
             "repoURL": "none",
             "deployURL": "none"
