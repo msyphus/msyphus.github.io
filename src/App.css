@@ -2,9 +2,9 @@ a {
   color: #324299;
 }
 
-.btn-primary, .btn-primary:hover {
-  background-color: rebeccapurple;
-  border-color: rebeccapurple;
+.btn-primary, .btn-primary:hover, .btn-primary:active {
+  background-color: rebeccapurple !important;
+  border-color: rebeccapurple !important;
 }
 
 .icon {
