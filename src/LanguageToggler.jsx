@@ -1,10 +1,10 @@
+import { useContext } from 'react';
 import { Button } from 'react-bootstrap';
+import { LanguageContext } from './App';
 
-function LanguageToggler({
-    language,
-    setLanguage
-}) {
-
+function LanguageToggler() {
+    const { language, setLanguage } = useContext(LanguageContext);
+    
     return (
         <div className='languageToggle'>
             <Button

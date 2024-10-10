@@ -1,12 +1,13 @@
+import { useContext } from 'react';
 import { Tabs, Tab } from "react-bootstrap";
 import AboutMe from './AboutMe';
 import Projects from './Projects';
 import Skills from './Skills';
+import { LanguageContext } from "./App";
 
-function MyTabs({
-    language
-}) {
-    
+function MyTabs() {
+    const { language } = useContext(LanguageContext);
+
     return (
         <Tabs
             defaultActiveKey={'about'}
@@ -16,25 +17,19 @@ function MyTabs({
                 eventKey={'about'}
                 title={language === 'en' ? 'About Me' : 'Acerca de Mí'}
             >
-                <AboutMe 
-                    language={language}
-                />
+                <AboutMe />
             </Tab>
             <Tab 
                 eventKey={'projects'}
                 title={language === 'en' ? 'Projects' : 'Proyectos'}
             >
-                <Projects 
-                    language={language}
-                />
+                <Projects />
             </Tab>
             <Tab 
                 eventKey={'skills'}
                 title={language === 'en' ? 'Skills' : 'Competencias'}
             >
-                <Skills 
-                    language={language}
-                />
+                <Skills />
             </Tab>
         </Tabs>
     )

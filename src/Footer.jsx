@@ -1,8 +1,12 @@
+import { useContext } from "react";
+import { LanguageContext } from "./App";
+
 function Footer() {
+    const { language } = useContext(LanguageContext);
 
     return (
         <div className='footer'>
-            WARNING: Page Under Construction. Last update October 7, 2024
+            {language === 'en' ? 'Updated October 9, 2024' : 'Actualizado el 9 de Octubre, 2024'}
         </div>
     )
 }
